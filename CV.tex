@@ -1,0 +1,180 @@
+\documentclass[a4paper, oneside, final]{scrartcl} % Paper options using the scrartcl class
+
+\usepackage{scrpage2} % Provides headers and footers configuration
+\usepackage{titlesec} % Allows creating custom \section's
+\usepackage{marvosym} % Allows the use of symbols
+\usepackage{tabularx,colortbl} % Advanced table configurations
+\usepackage{fontspec} % Allows font customization
+
+\defaultfontfeatures{Mapping=tex-text}
+
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule] % Section formatting
+
+\pagestyle{scrheadings} % Print the headers and footers on all pages
+
+\addtolength{\voffset}{-0.7in} % Adjust the vertical offset - less whitespace at the top of the page
+\addtolength{\textheight}{3cm} % Adjust the text height - less whitespace at the bottom of the page
+
+\newcommand{\gray}{\rowcolor[gray]{.90}} % Custom highlighting for the work experience and education sections
+
+%----------------------------------------------------------------------------------------
+% FOOTER SECTION
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\headfont}{\normalfont\rmfamily\scshape} % Font settings for footer
+
+\cofoot{
+\addfontfeature{LetterSpace=12.0}\fontsize{12}{17}\selectfont % Letter spacing and font size
+
+{\Large\Letter} hareyakana@hotmail.com \ {\Large\Telefon} (+44) 79232 01955 % Your email address and phone number
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{center} % Center everything in the document
+
+%----------------------------------------------------------------------------------------
+% 	HEADER SECTION
+%----------------------------------------------------------------------------------------
+
+{\addfontfeature{LetterSpace=12.0}\fontsize{24}{12}\selectfont\scshape Ken Keong Lee} % Your name at the top
+
+\vspace{0.5cm} % Extra whitespace after the large name at the top
+
+%----------------------------------------------------------------------------------------
+%	Personal Statement
+%----------------------------------------------------------------------------------------
+
+\section{Personal Statement}
+
+Long term goal is work as a experimental particle physicist. Plans after graduation including pursuing a Phd or a career within the industry depending on personal circumstances. I am capable of self taught/learn as I have done so in the past for my Book-keeping in secondary school and coding during university. Though I has much more to learn in coding, i would be able to pick any program if needed. Personally prefer working independently but am able to work in group if needed.
+%----------------------------------------------------------------------------------------
+%	Interest
+%----------------------------------------------------------------------------------------
+\section{Interest/Topics}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Physics Beyond the Standard Model & Group presentation\\
+Neutrino Oscillation & Individual Dissertation\\
+Plasmonics & Individual Essay\\
+Experimental Particle Physics\\
+Low temperature System/Superconducting physics\\ 
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Period & \textbf{July 2014 --- August 2014 (Summer placement)}\\
+\gray Employer & \textbf{Oxford Instrument} \hfill Tubney Woods, Oxfordshire\\
+\gray Job Title & \textbf{SEPnet Student summer placement}\\
+\gray Supervisor & \textbf{Daniel Strange, daniel.strange@oxinst.com}\\
+& Worked on a Shrink fit problem of a superconducting magnet. Responsible for designing the experimental piece and method to test various shrink fit sizes and condition for a 170cm and 120cm magnet. Result from the experiment were later scaled and used for rest of the product that required shrink fit and magnet of the same type. Also exhibited result at SEPnet Poster Exhibition 2014 in London
+\end{tabularx}
+
+\vspace{12pt}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Period & \textbf{June 2012 --- August 2012 (Part Time)}\\
+\gray Employer & \textbf{Marks \& Spencer} \hfill KL, Malaysia\\
+\gray Job Title & \textbf{Sales Advisor}\\
+
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{3cm}X}
+\gray Period & \textbf{September 2012 --- July 2016}\\
+\gray Degree & \textbf{Master of Physics}\\
+\gray University & \textbf{University of Southampton} \hfill UK\\
+& average grade, 74.3
+\end{tabularx}
+
+\vspace{10pt}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{3cm}X}
+\gray Period & \textbf{January 2011 --- June 2012}\\
+\gray Level & \textbf{A level}\\
+\gray Insitution & \textbf{Tunku Abdul Rahman College} \hfill KL, Malaysia\\
+& Physics - A*, Chemistry - A*, Mathematics - A*, Further Mathematics - A*
+\end{tabularx}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{3cm}X}
+\gray Period & \textbf{January 2006 --- December 2010}\\
+\gray Level & \textbf{SPM}\\
+\gray Insitution & \textbf{SMK Raja Abdullah} \hfill KL, Malaysia\\
+& 9A1B, equivalent to O level in UK, English 1119 - 4B
+\end{tabularx}
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Personal}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Language & English(Native), Malay, Chinese(native), Cantonese \\
+Software Literacy  & Latex(Self learnt), Python(Basic), Labview(placement), \\
+ & Autocad(placement), Finite element analysis-ANSYS(placement) \\
+ & Git(Basic), Shell Command(Basic)
+
+\end{tabular}
+%----------------------------------------------------------------------------------------
+%	Personal information
+%----------------------------------------------------------------------------------------
+
+\section{Personal information}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Visa Type & Tier 4 (General Student)\\
+Current visa End Date & 11/10/2016\\
+Nationality & Malaysian\\
+Linkedin & uk.linkedin.com/pub/ken-keong-lee/9b/18b/885/\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	Voluntary Experience
+%----------------------------------------------------------------------------------------
+
+\section{Voluntary Experiences}
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Period & March 2010, April 2011\\
+\gray Place & Ko Bulon and Satun in Thailand\\
+& English Camp for under privilege/abused children organised by FGA Kepong church
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	Involvement
+%----------------------------------------------------------------------------------------
+\section{Past Involvement}
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{1.5cm}X}
+\gray Period & 2009\\
+\gray Program & Culture Exchange Program with Kumamoto Gakuen University Fuzoku High School, Japan\\
+\end{tabularx}
+
+\vspace{10pt}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{1.5cm}X}
+\gray Period & 2010\\
+\gray Program & Culture Exchange Program with Osake Furitsu Minoh High School, Japan\\
+\end{tabularx}
+%----------------------------------------------------------------------------------------
+%	Achievement
+%----------------------------------------------------------------------------------------
+\section{Past Achievement}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+High Achiever Award 2012 by TARC(maintained scholar status)\\
+National Physics Quiz 2010 & Bronze\\
+National Chemistry Quiz 2010 & merit\\
+Level 2 Certificate in Book-keeping and Accounts\\
+\end{tabular}
+
+\end{center}
+
+\end{document}
