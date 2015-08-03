@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2014.10.9)  22 MAR 2015 09:30
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2014.10.9)  3 AUG 2015 15:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -604,47 +604,30 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * selected by fontspec.
 *************************************************
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 57.
+(Font)              <7> on input line 57.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 57.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 57.
-
-Overfull \hbox (7.6878pt too wide) in paragraph at lines 57--64
- [] 
- []
-
-
-Overfull \hbox (2.92528pt too wide) in paragraph at lines 77--77
- []|\EU1/lmr/m/sc/10.95 Supervisor|
- []
-
+(Font)              <5> on input line 57.
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
 * \addfontfeature(s) ignored; it cannot be used with a font that wasn't
 * selected by fontspec.
 *************************************************
-LaTeX Font Info:    Try loading font information for U+mvs on input line 115.
+LaTeX Font Info:    Try loading font information for U+mvs on input line 134.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/marvosym/umvs.fd) [1
 
 ]
-Overfull \hbox (24.48509pt too wide) in paragraph at lines 122--132
- [] 
- []
-
-
-Overfull \hbox (7.26381pt too wide) in paragraph at lines 159--159
+Overfull \hbox (7.26381pt too wide) in paragraph at lines 167--167
  []|\EU1/lmr/m/sc/10.95 Program|
  []
 
 
-Overfull \hbox (7.26381pt too wide) in paragraph at lines 166--166
+Overfull \hbox (7.26381pt too wide) in paragraph at lines 174--174
  []|\EU1/lmr/m/sc/10.95 Program|
  []
 
 
-Overfull \hbox (4.72034pt too wide) in paragraph at lines 171--177
+Overfull \hbox (4.72034pt too wide) in paragraph at lines 179--185
  [] 
  []
 
@@ -656,12 +639,12 @@ Overfull \hbox (4.72034pt too wide) in paragraph at lines 171--177
 *************************************************
 [2] (./CV.aux) ) 
 Here is how much of TeX's memory you used:
- 14912 strings out of 493734
- 299730 string characters out of 6146348
- 392602 words of memory out of 5000000
- 18169 multiletter control sequences out of 15000+600000
- 6920 words of font info for 39 fonts, out of 8000000 for 9000
+ 14927 strings out of 493734
+ 300077 string characters out of 6146348
+ 391602 words of memory out of 5000000
+ 18177 multiletter control sequences out of 15000+600000
+ 6952 words of font info for 43 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 58i,11n,51p,10353b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,11n,51p,10353b,415s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on CV.pdf (2 pages).
