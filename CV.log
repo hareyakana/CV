@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.10.13)  13 OCT 2015 22:17
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.10.13)  17 NOV 2015 00:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -613,25 +613,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 57.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 57.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 132.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 132.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 132.
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
 * \addfontfeature(s) ignored; it cannot be used with a font that wasn't
 * selected by fontspec.
 *************************************************
-LaTeX Font Info:    Try loading font information for U+mvs on input line 126.
+LaTeX Font Info:    Try loading font information for U+mvs on input line 132.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/marvosym/umvs.fd) [1
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 142.
+(Font)              <9> on input line 138.
 
-Overfull \hbox (7.26381pt too wide) in paragraph at lines 181--181
+Overfull \hbox (7.26381pt too wide) in paragraph at lines 177--177
  []|\EU1/lmr/m/sc/10.95 Program|
  []
 
 
-Overfull \hbox (7.26381pt too wide) in paragraph at lines 188--188
+Overfull \hbox (7.26381pt too wide) in paragraph at lines 184--184
  []|\EU1/lmr/m/sc/10.95 Program|
  []
 
@@ -645,10 +651,10 @@ Overfull \hbox (7.26381pt too wide) in paragraph at lines 188--188
 Here is how much of TeX's memory you used:
  15636 strings out of 493706
  318095 string characters out of 6145768
- 411995 words of memory out of 5000000
+ 412995 words of memory out of 5000000
  18904 multiletter control sequences out of 15000+600000
  7872 words of font info for 47 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 58i,10n,50p,10353b,404s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,11n,50p,10353b,415s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on CV.pdf (2 pages).
