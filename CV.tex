@@ -1,3 +1,4 @@
+% !TEX encoding = UTF-8 Unicode
 \documentclass[a4paper, oneside, final]{scrartcl} % Paper options using the scrartcl class
 
 \usepackage{scrpage2} % Provides headers and footers configuration
@@ -5,6 +6,8 @@
 \usepackage{marvosym} % Allows the use of symbols
 \usepackage{tabularx,colortbl} % Advanced table configurations
 \usepackage{fontspec} % Allows font customization
+\usepackage{zxjatype}
+%\usepackage[ipaex]{zxjafont}
 
 \defaultfontfeatures{Mapping=tex-text}
 
@@ -26,7 +29,7 @@
 \cofoot{
 \addfontfeature{LetterSpace=12.0}\fontsize{11}{11}\selectfont % Letter spacing and font size
 
-{\Letter} kkl2g12@soton.ac.uk/hareyakana@hotmail.com \ {\Telefon} (+44) 79232 01955 % Your email address and phone number
+{\Letter} hareyakana@gmail.com \ {\Telefon} (+81)07042989481 % Your email address and phone number
 }
 
 %----------------------------------------------------------------------------------------
@@ -39,30 +42,16 @@
 % 	HEADER SECTION
 %----------------------------------------------------------------------------------------
 
-{\addfontfeature{LetterSpace=12.0}\fontsize{24}{12}\selectfont\scshape Ken Keong Lee} % Your name at the top
+{\addfontfeature{LetterSpace=12.0}\fontsize{24}{12}\selectfont\scshape ケンリイKen Keong Lee } % Your name at the top
 
-\vspace{0.5cm} % Extra whitespace after the large name at the top
+\vspace{0.2cm} % Extra whitespace after the large name at the top
 
 %----------------------------------------------------------------------------------------
 %	Personal Statement
 %----------------------------------------------------------------------------------------
-\section{Personal Statement}
+%\section{Personal Statement}
 
-\small{For my final year MPhys project, I am working on "Testing models of very heavy Dark matter with the IceCube experiment". I choose this topic because it was more of a continuation of what I did for my dissertation and neutrino is somethings that I am very interested in. Neutrino oscillation showed that the SM was incomplete and there is more research needed to be done. In this project, studies on the flavor composition and energy spectrum of the neutrino event detected at IceCube were done to compare the experimental results published by IceCube.}
-
-%----------------------------------------------------------------------------------------
-%	Interests
-%----------------------------------------------------------------------------------------
-\section{Interests}
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Neutrino Oscillations & Individual Dissertation \\
-Dark Matter and IceCube experiment & MPhys Project\\
-Plasmonics & Individual Essay\\
-Experimental Neutrino Physics & Interest\\
-Low temperature System/Superconducting physics & Interest\\ 
-Accelerator Physics & Interest\\
-\end{tabular}
-
+%\footnotesize{I am looking for opportunities to start afresh in a new career. I believed my training experiences as a physicist which required me to adapt and learn new things constantly. My past research  in fundamental physics involved both theoretical and experimental aspect. It also did involved me to go beyond the area of physics and learn things in the area of computer science and engineering for the enhancement of my physics research. I am open to opportunity related to data scientist and programming.}
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE
 %----------------------------------------------------------------------------------------
@@ -70,14 +59,28 @@ Accelerator Physics & Interest\\
 \section{Work Experience}
 
 \begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
-\gray Period & \textbf{July 2014 --- August 2014 (Summer placement)}\\
+\gray Period & \textbf{Aug 2020 $\sim$}\\
+\gray Employer & \textbf{Zentel Japan ゼンテルジャパン} \hfill 大阪\\
+\gray Job Title & \textbf{Senior Engineer 主任技師}\\
+& \footnotesize{JEDEC compliant DRAM circuit design, mainly Spice verification. Involved in $\sim$4 projects, including one custom DRAM project. Tech node $\sim$20nm, $> 1 \alpha$ Job scope involves from standard cells, circuit block design, verification. Job task involved layout, digital\&Analog circuits. Good grasp on RTL to GDS workflow and DRAM testing methods}
+\end{tabularx}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Period & \textbf{Oct 2019 --- March 2020}\\
+\gray Employer & \textbf{Osaka University 大阪大学}\\
+\gray Job Title & \textbf{Research Assistant}\\
+& \footnotesize{Assist in collecting literature and writing research summary}
+\end{tabularx}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Period & \textbf{July 2014 --- Aug 2014 (Summer placement)}\\
 \gray Employer & \textbf{Oxford Instrument} \hfill Tubney Woods, Oxfordshire\\
 \gray Job Title & \textbf{SEPnet Student summer placement}\\
 \gray Supervisor & \textbf{Daniel Strange, daniel.strange@oxinst.com}\\
-& \footnotesize{Worked on a shrink fit problem for a superconducting magnet. Responsible for designing the experimental piece and methods to test various shrink fit sizes and condition. Results from the experiment is used to improve the product designed for a client. Have also Exhibited result at SEPnet Poster Exhibition 2014 in London}
+& \footnotesize{Worked on a shrink fit problem for a superconducting magnet. Designed the experimental piece and methods to test various shrink fit sizes and condition. Results were exhibited  at SEPnet Poster Exhibition 2014 at Royal Engineering of Academy in London}
 \end{tabularx}
 
-\vspace{12pt}
+\vspace{-5mm}
 
 %\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
 %\gray Period & \textbf{June 2012 --- August 2012 (Part Time)}\\
@@ -96,24 +99,30 @@ Accelerator Physics & Interest\\
 \gray Period & \textbf{September 2012 --- July 2016}\\
 \gray Degree & \textbf{MPhys}\\
 \gray University & \textbf{University of Southampton} \hfill UK\\
-& average grade, 69.5(year 2), 58.1(year 3)\\ &
-\footnotesize{received a total of \pounds12 000 scholarship in tuition fee from University }
+& \footnotesize{Second Class Honours(Upper Division), \pounds12 000 scholarship in tuition fee from University }\\
+&\footnotesize{Theoretical Astrophysical Neutrino Studies at IceCube}
+\end{tabularx}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{3cm}X}
+\gray Period & \textbf{October 2016 --- March 2020}\\
+\gray Course & \textbf{Experimental Physics*}\\
+\gray University & \textbf{Osaka University} \hfill Japan\\
+&\footnotesize{*completion of studies with credits, 3 years MEXT Scholarship, 6 months research assistant}\\
+&\footnotesize{Cryogenic sensor bolometer development for neutrino physics, Unsupervised learning for rare physics event search, hareyakana.github.io/landfill}
 \end{tabularx}
 
 \begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{3cm}X}
 \gray Period & \textbf{January 2011 --- June 2012}\\
-\gray Level & \textbf{A level}\\
-\gray Insitution & \textbf{Tunku Abdul Rahman College(now known as TARUC)} \hfill KL, Malaysia\\
-& \footnotesize{Physics A*, Chemistry A*, Mathematics A*, Further Mathematics A}
-
-\footnotesize{recieved full scholarship}
+\gray Level & \textbf{Advance Level}\\
+\gray Institution & \textbf{Tunku Abdul Rahman College(TARUC)} \hfill KL, Malaysia\\
+& \footnotesize{3A*1A, full tuition scholarship, pre-university/high school equivalent}
 \end{tabularx}
 
 \begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{3cm}X}
 \gray Period & \textbf{January 2006 --- December 2010}\\
 \gray Level & \textbf{SPM}\\
-\gray Insitution & \textbf{SMK Raja Abdullah} \hfill KL, Malaysia\\
-& \footnotesize{9A1B, equivalent to O level in UK, English 1119 - 4B}
+\gray Institution & \textbf{SMK Raja Abdullah} \hfill KL, Malaysia\\
+& \footnotesize{9A1B, O level equivalent}
 \end{tabularx}
 %----------------------------------------------------------------------------------------
 %	SKILLS
@@ -122,39 +131,67 @@ Accelerator Physics & Interest\\
 \section{Personal Skills}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Language & English(Native), Malay, Chinese(native), Cantonese \\
-Software Literacy & Latex(3), Python(3), Labview(1), \\
-proficiency(1-4) & Autocad(2), Finite element analysis-ANSYS(1) \\
- & Git/Github(2), Shell Command(2), C/C++(2), MATLAB(2)
-
+Language & English(native), Chinese(native), Malay(Fluent), \\ & Japanese(Conversational, 日本語能力試験 JLPT N2), Cantonese(Conversational),  \\
+Programing/Software & Cadence/Synopsys ecosystem, spice, verilog\\
+ & Python, C/C++, CAD, Labview, LaTeX, Microsoft Office\\
+ & Pytorch, FEA-ANSYS, KiCAD, ROOT, Geant4 \\
+ & Git, Markdown, Shell(Unix), SSH, MATLAB\\
+ & Linux(Fedora), Mac OS X, Windows\\
+Experiences & Dilution refrigerator, wire bonder, high vacuum system \\
+& Cumulative 3 months Kamioka Observatory shift\\ 
 \end{tabular}
-
-\footnotesize{2-proper learning via lynda.com/course, 3-fairly proficient, 4-mastered}
 
 %----------------------------------------------------------------------------------------
 %	Achievement
 %----------------------------------------------------------------------------------------
 \section{Past Achievement}
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-High Achiever Award 2012 by TARC(maintained scholar status)\\
+High Achiever Award 2012 by TARC (maintained scholar status)\\
 Full merit scholarship for A level studies at TARC\\
 National Physics Quiz 2010 & Bronze\\
 National Chemistry Quiz 2010 & merit\\
-Level 2 Certificate in Book-keeping and Accounts\\
+Level 2 Certificate in Book-keeping and Accounts & recieved 2010\\
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
 %	Personal information
 %----------------------------------------------------------------------------------------
 \normalsize
-\section{Personal information}
+\section{Personal information個人情報}
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
 DOB & 13/07/1993\\
-Visa Type & UK Tier 4 (General Student)\\
-Current visa End Date & 11/10/2016\\
 Nationality & Malaysian\\
+Visa status & 技術・人文知識・国際業務 expires in 13/7/2025\\
 Linkedin & uk.linkedin.com/pub/ken-keong-lee/9b/18b/885/\\
-GitHub & https://github.com/hareyakana
+Personal Homepage & hareyakana.github.io/cv/
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	Peer-reviewed Papers
+%----------------------------------------------------------------------------------------
+
+\section{Conferences/Articles/etc.}
+{\small
+\begin{itemize}
+\item Phys. Rev. D 103, 092008 - CANDLES Collaboration "Low background measurement in CANDLES-III for studying the neutrino-less double beta decay of $^{48}$Ca"\textsl{co-authored}
+\item International workshop on Revealing the history of the universe with underground particle and nuclear research 2019 Tohoku 2019 - "Development of Scintillating Bolometer for CANDLES"(Poster) \textsl{co-authored}
+\item JPS Autumn 2019 meeting - "Bolometer Development using Neutron Transmutation Doped Ge in CANDLES for the study of Neutrinoless Double Beta decay" \textsl{main presenter}
+\item TAUP 2019 - "Status of $^{48}$Ca double beta decay search and its future prospect in CANDLES" \textsl{co-presenter}
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%	Past Research projects
+%----------------------------------------------------------------------------------------
+
+\section{Past research}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Anomaly search through Unsupervised Machine Learning & Phd Project\\
+Neutrinoless Double Beta Decay & Phd Project\\
+Low temperature Bolometer Development & Phd Project\\
+Dark Matter and IceCube experiment & MPhys Project\\
+Neutrino Oscillations & Individual Dissertation \\
+Plasmonics & Individual Essay\\ 
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
@@ -165,13 +202,13 @@ GitHub & https://github.com/hareyakana
 \begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
 \gray Period & March 2010, April 2011\\
 \gray Place & Ko Bulon and Satun in Thailand\\
-& \footnotesize{English Camp for under privileged/abused children organised by FGA Kepong church}
+& \footnotesize{English Camp for under privileged/abused children}
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
 %	Involvement
 %----------------------------------------------------------------------------------------
-\section{Past Involvement}
+\section{Past Exchange Involvement}
 \begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{1.5cm}X}
 \gray Period & 2009\\
 \gray Program & Culture Exchange Program with Kumamoto Gakuen University Fuzoku High School, Japan\\
