@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2023.8.6)  14 SEP 2023 22:40
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2023.8.6)  18 SEP 2023 22:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -638,38 +638,37 @@ LaTeX Font Warning: Font shape `TU/FandolSong-Regular(0)/m/sc' undefined
 (Font)              using `TU/FandolSong-Regular(0)/m/n' instead on input line 
 45.
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 139.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 139.
 
-Overfull \hbox (25.07639pt too wide) in paragraph at lines 133--145
- [] 
- []
-
-
-Package fontspec Warning: \addfontfeature(s) ignored on line 150; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 139; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
 (fontspec)                 The current font is "\TU/lmr/m/sc/10.95 ".
 (fontspec)                  The requested feature is "LetterSpace=12.0". 
 
-LaTeX Font Info:    Try loading font information for U+mvs on input line 150.
+LaTeX Font Info:    Try loading font information for U+mvs on input line 139.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/marvosym/umvs.fd) [1
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 178.
+(Font)              <7> on input line 180.
 
-Overfull \hbox (0.84813pt too wide) in paragraph at lines 180--181
+Overfull \hbox (0.84813pt too wide) in paragraph at lines 182--183
 []\TU/lmr/m/n/10 JPS Autumn 2019 meeting - ”Bolometer Development using Neutron
  Transmutation Doped
  []
 
 
-Overfull \hbox (44.55644pt too wide) in paragraph at lines 190--198
+Overfull \hbox (44.55644pt too wide) in paragraph at lines 192--200
  [] 
  []
 
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 213; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 215; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -677,17 +676,17 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 213; it cannot be
 (fontspec)                  The requested feature is "LetterSpace=12.0". 
 
 [2]
-Overfull \hbox (7.26381pt too wide) in paragraph at lines 217--217
+Overfull \hbox (7.26381pt too wide) in paragraph at lines 219--219
  []|\TU/lmr/m/sc/10.95 Program|
  []
 
 
-Overfull \hbox (7.26381pt too wide) in paragraph at lines 224--224
+Overfull \hbox (7.26381pt too wide) in paragraph at lines 226--226
  []|\TU/lmr/m/sc/10.95 Program|
  []
 
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 228; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 230; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -700,12 +699,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 16600 strings out of 492933
- 369589 string characters out of 6133146
- 571813 words of memory out of 5000000
- 20562 multiletter control sequences out of 15000+600000
- 536602 words of font info for 61 fonts, out of 8000000 for 9000
+ 16605 strings out of 492933
+ 369714 string characters out of 6133146
+ 572813 words of memory out of 5000000
+ 20564 multiletter control sequences out of 15000+600000
+ 536618 words of font info for 63 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 47i,10n,65p,9081b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,11n,65p,9081b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on CV.pdf (3 pages).
