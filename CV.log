@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2023.8.6)  18 SEP 2023 22:53
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2023.8.6)  19 SEP 2023 21:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -654,6 +654,10 @@ LaTeX Font Info:    Try loading font information for U+mvs on input line 139.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/marvosym/umvs.fd) [1
 
 ]
+Overfull \hbox (4.96123pt too wide) in paragraph at lines 153--160
+ [] 
+ []
+
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 180.
 
@@ -701,7 +705,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  16605 strings out of 492933
  369714 string characters out of 6133146
- 572813 words of memory out of 5000000
+ 573813 words of memory out of 5000000
  20564 multiletter control sequences out of 15000+600000
  536618 words of font info for 63 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
